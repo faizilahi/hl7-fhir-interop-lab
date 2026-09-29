@@ -3,6 +3,7 @@ __pycache__/
 .venv/
 venv/
 .env
-*.egg-info/
 .DS_Store
-output/
+.pytest_cache/
+output/*.csv
+!output/.gitkeep
